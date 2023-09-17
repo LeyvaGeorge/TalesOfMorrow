@@ -1,6 +1,23 @@
 {
+  "name": "talesofmorrow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeyvaGeorge/TalesOfMorrow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeyvaGeorge/TalesOfMorrow/issues"
+  },
+  "homepage": "https://github.com/LeyvaGeorge/TalesOfMorrow#readme",
   "dependencies": {
-    "bootstrap": "^5.3.1",
     "gitignore": "^0.7.0"
   }
 }

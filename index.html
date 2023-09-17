@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/images/Skull.ico" type="image/x-icon">
-    <title>Tales of Morrow</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="./src/main.css">
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/images/Skull.ico" type="image/x-icon">
+  <title>Tales of Morrow</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./src/main.css">
 
 </head>
+
 <body>
-    <header>
-        <nav class="navbar bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Offcanvas navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tales of Morrow</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link " href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">FAQ</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col">Text</div>
-            </div>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="nav-branding"></a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="filler">Main</div>
+    <!-- <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <img src="./images/Tales_of_Morrow.png" class="img-fluid" alt="Tales of Morrow">
         </div>
-    </main>
-    <footer></footer>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Wishlist</h2>
+        </div>
+      </div>
+    </div> -->
+  </main>
+  <footer>Footer
+    <!-- <div class="container text-center bg-dark">
+      <div class="row">
+        <div class="col-4 text-white">
+          <h3>©Tales of Morrow 2023</h3>
+        </div>
+        <div class="col-4">
+
+        </div>
+        <div class="col-4 text-white">
+          <h3>GameMechanic</h3>
+        </div>
+
+
+      </div>
+
+    </div> -->
+  </footer>
+  <script src="script.js">  </script>
 </body>
+
 </html>
