@@ -78,12 +78,12 @@ header .hamburger .bar {
 }
 
 main {
-  background-color: pink;
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 main #title {
   max-width: 807px;
@@ -95,6 +95,29 @@ main #title img {
 }
 main h1 {
   font-size: 0;
+}
+main .steam a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  width: 175px;
+  color: black;
+  text-decoration: none;
+}
+main .steam a:hover {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.6));
+}
+main .steam img {
+  position: absolute;
+}
+main .steam i {
+  z-index: 1;
+}
+main .steam h3 {
+  font-size: 2rem;
+  z-index: 1;
 }
 @media only screen and (max-width: 600px) {
   main {
