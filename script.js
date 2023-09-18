@@ -1,4 +1,4 @@
-// Navigation 
+// Navigation Header
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 

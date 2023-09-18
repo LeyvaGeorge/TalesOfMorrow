@@ -84,4 +84,26 @@ header{
         }
     }
 }
-    
+main{
+    background-color: pink;
+    width: 80%;
+    margin: 0 auto;
+    //center the contents
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #title{
+        max-width: 807px; //change to the original img
+        max-height: 452px;//change to the original img
+        img{ 
+            width: 100%;
+            height: auto;
+        }
+    }
+    h1{
+        font-size: 0;
+    }
+    @media only screen and (max-width:600px){
+        width: 100%;
+    }
+} 
