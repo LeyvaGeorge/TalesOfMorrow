@@ -91,7 +91,7 @@ header{
 }
 main{
     //background-color: pink; //Change color back to either white or delete this line*****
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     //center the contents
     display: flex;
@@ -99,8 +99,8 @@ main{
     align-items: center;
     flex-direction: column;
     #title{
-        max-width: 807px; //change to the original img
-        max-height: 452px;//change to the original img
+        // max-width: 807px; //change to the original img
+        // max-height: 452px;//change to the original img
         img{ 
             width: 100%;
             height: auto;
@@ -164,18 +164,43 @@ main{
             height: auto;
         }
     }
+    .community{
+        width: 100%;
+        height: auto;
+        background-image: url('https://placehold.co/3840x400');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .container{
+            width: 80%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            .links{
+                flex:1;
+                width: 80%;
+                text-align: left;
+            }
+            .images{
+                flex:1;
+            }  
+        }
+    }
 }
+
 footer{
     background-color: rgba(0,0,0,0.3);
     padding: 10px 0;
     display:flex;
     justify-content: center;
     .footer{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
     @media only screen and (max-width:600px){
         .footer{
