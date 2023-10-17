@@ -91,19 +91,28 @@ header{
 }
 main{
     //background-color: pink; //Change color back to either white or delete this line*****
-    width: 100%;
-    margin: 0 auto;
+    //width: 100%;
+    //margin: 0 auto;
     //center the contents
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
     #title{
-        // max-width: 807px; //change to the original img
-        // max-height: 452px;//change to the original img
-        img{ 
-            width: 100%;
-            height: auto;
+        background-color: slategray;
+        background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1783620/ss_38f68a712d7fe141bbfc2b5c1a09c9055382fe0e.jpg?t=1697340438);
+        background-size: cover;
+        background-blend-mode:hard-light;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .container{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            img{
+                width:60%;
         }
     }
     h1{

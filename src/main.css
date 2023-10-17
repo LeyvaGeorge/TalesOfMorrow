@@ -80,17 +80,21 @@ header .hamburger .bar {
   }
 }
 
-main {
-  width: 100%;
-  margin: 0 auto;
+main #title {
+  background-color: slategray;
+  background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1783620/ss_38f68a712d7fe141bbfc2b5c1a09c9055382fe0e.jpg?t=1697340438);
+  background-size: cover;
+  background-blend-mode: hard-light;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+main #title .container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
 }
 main #title img {
-  width: 100%;
-  height: auto;
+  width: 60%;
 }
 main h1 {
   font-size: 0;
