@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: #262626;
+  background-color: #7ED2F4;
 }
 header ul li {
   list-style: none;
@@ -66,7 +66,7 @@ header .hamburger .bar {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #262626;
+    background-color: #95E0F4;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -81,7 +81,7 @@ header .hamburger .bar {
 }
 
 main #title {
-  background-color: slategray;
+  background-color: #95E0F4;
   background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1783620/ss_38f68a712d7fe141bbfc2b5c1a09c9055382fe0e.jpg?t=1697340438);
   background-size: cover;
   background-blend-mode: hard-light;
@@ -103,10 +103,10 @@ main h2 {
   font-size: 4rem;
   padding: 10px;
 }
-main iframe {
-  padding-top: 15px;
-  width: 1100px;
-  height: 619px;
+main .steam {
+  background-color: #D9D2C7;
+  display: flex;
+  justify-content: center;
 }
 main .steam a {
   display: flex;
@@ -131,23 +131,33 @@ main .steam h3 {
   font-size: 2rem;
   z-index: 1;
 }
-main .news .card-grid {
+main .background_cave {
+  background-color: #D9D2C7;
+}
+main .background_cave .news {
+  width: 80%;
+  margin: 0 auto;
+}
+main .background_cave .news h2 {
+  text-align: center;
+}
+main .background_cave .news .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   align-items: flex-start;
 }
-main .news .card-grid .card {
+main .background_cave .news .card-grid .card {
   --padding:1rem;
-  background-color: aqua;
+  background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
-main .news .card-grid .card .card-img {
+main .background_cave .news .card-grid .card .card-img {
   overflow: hidden;
 }
-main .news .card-grid .card .card-img img {
+main .background_cave .news .card-grid .card .card-img img {
   display: block;
   width: 100%;
   max-height: 200px;
@@ -158,35 +168,35 @@ main .news .card-grid .card .card-img img {
      object-position: center;
   transition: 200ms transform ease-in-out;
 }
-main .news .card-grid .card .card-header {
+main .background_cave .news .card-grid .card .card-header {
   padding: 0 var(--padding);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-main .news .card-grid .card .card-date {
+main .background_cave .news .card-grid .card .card-date {
   padding: 0 var(--padding);
   color: red;
   font-weight: bold;
 }
-main .news .card-grid .card .card-body {
+main .background_cave .news .card-grid .card .card-body {
   padding: 0 var(--padding);
 }
-main .news .card-grid .card .card-footer {
+main .background_cave .news .card-grid .card .card-footer {
   padding: 0 var(--padding);
   margin-top: 1rem;
 }
-main .news .card-grid .card .card-footer .btn {
+main .background_cave .news .card-grid .card .card-footer .btn {
   background-color: #262626;
   color: white;
   font-size: 1rem;
   padding: 0.5em 0.75em;
 }
-main .news .card-grid .card .card-footer .btn:hover {
+main .background_cave .news .card-grid .card .card-footer .btn:hover {
   background-color: red;
   color: black;
   font-weight: bold;
 }
-main .news .card-grid .card:hover > .card-img > img {
+main .background_cave .news .card-grid .card:hover > .card-img > img {
   transform: scale(1.025);
 }
 @media screen and (max-width: 1100px) {
@@ -212,15 +222,16 @@ main .news .card-grid .card:hover > .card-img > img {
 main .community {
   width: 100%;
   height: auto;
-  background-image: url("https://placehold.co/3840x400");
+  background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1783620/ss_1c5f0f846bac627c4c174c63bc61c9055d54b81f.jpg?t=1697340438);
   background-size: cover;
   background-position: center;
   position: relative;
-  display: flex;
-  align-items: center;
+  margin-top: 50px;
+  padding: 25px 0;
 }
 main .community .container {
   width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,12 +241,24 @@ main .community .container .links {
   width: 80%;
   text-align: left;
 }
+main .community .container .links h4 {
+  font-size: 3rem;
+  color: white;
+}
+main .community .container .links p {
+  font-size: 2rem;
+  color: white;
+}
+main .community .container .links .icons {
+  font-size: 2rem;
+  color: white;
+}
 main .community .container .images {
   flex: 1;
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #95E0F4;
   padding: 10px 0;
   display: flex;
   justify-content: center;
